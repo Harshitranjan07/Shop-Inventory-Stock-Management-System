@@ -1,0 +1,13 @@
+import React from 'react';
+
+
+const Loading = ({ message = 'Loading data, please wait...' }) => {
+  return (
+    <div className="loading-box">
+      <div className="spinner"></div>
+      <p>{message}</p>
+    </div>
+  );
+};
+
+export default Loading;
