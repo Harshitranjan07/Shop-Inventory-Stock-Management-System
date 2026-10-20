@@ -8,9 +8,16 @@ const errorHandler = require('./middleware/errorHandler');
 dotenv.config();
 
 
-connectDB();
-
 const app = express();
+
+app.use(async (req, res, next) => {
+  try {
+    await connectDB();
+    next();
+  } catch (err) {
+    next(err);
+  }
+});
 
 
 const allowedOrigin = process.env.CLIENT_URL || '*';
