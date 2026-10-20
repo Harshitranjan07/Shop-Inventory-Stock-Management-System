@@ -255,6 +255,7 @@ npm run dev
 
 ## 12. Deployment Status
 
-- **Frontend Deployment URL:** *Pending (To be deployed by student)*
-- **Backend Deployment URL:** *Pending (To be deployed by student)*
-- **Database:** *MongoDB Atlas*
+- **Frontend Live URL:** [https://frontend-pi-three-18.vercel.app](https://frontend-pi-three-18.vercel.app)
+- **Backend API Live URL:** [https://backend-eight-peach-74.vercel.app/api](https://backend-eight-peach-74.vercel.app/api)
+- **Database:** MongoDB Atlas (`complete-backend.oxbhaat.mongodb.net`) — Live & Seeded
+- **Hosting Platform:** Vercel (Production)
